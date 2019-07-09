@@ -1,0 +1,4 @@
+Set env variable:
+    #nano ~/.bashrc_profile
+    Add line: “export VAR_NAME=/con/ten/t”
+    #source ~/.bashrc_profile
