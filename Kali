@@ -1,1 +1,3 @@
 Clean .cap file:
+    Paste to WireShark's filter field: "wlan.fc.type_subtype == 0x08 || wlan.fc.type_subtype == 0x05 || eapol"
+    And from the File menu, choose Export Specified Packets
