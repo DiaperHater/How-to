@@ -1,2 +1,7 @@
-
 Switch to particular commit:
+    git log (to list commits)
+    git checkout HASH_OF_PARTICULAR_COMMIT
+    git checkout master (return to HEAD)
+    
+Undo changes:
+    git checkout -- file.name (or . for all files) // Undo all changes and removes all created files
