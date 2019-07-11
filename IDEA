@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-<b>Create project from existing sources:</b>
-    Open folder that contains sources
+Create project from existing sources:
+    Open folder that contains source files
     Go to PROJECT STRUCTURE and setup project SDK and set actual language level and set project compiler output directory
     Project Settings -> Modules -> mark your sources dir as sources
-
-</html>
