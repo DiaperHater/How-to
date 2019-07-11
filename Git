@@ -16,4 +16,12 @@ Undo all working dir changes including new files:
     To see what will be deleted before-hand, without actually deleting it, use the -n flag (this is basically a test-run). When you are ready to actually delete, then remove the -n flag:
 
     git clean -nfd
+    
+Remove directory from git but NOT local
+As mentioned in the comments, what you 
+usually want to do is remove this directory 
+from git but not delete it entirely from 
+the filesystem (local):
+        git rm -r --cached myFolder
+
 
