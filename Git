@@ -24,4 +24,11 @@ from git but not delete it entirely from
 the filesystem (local):
         git rm -r --cached myFolder
 
+Delete a branch (local or remote):
+    To delete a local branch:
+        git branch -d the_local_branch
+
+     To delete remote branch:
+        git push origin --delete the_remote_branch
+
 
